@@ -3,27 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B7A3F22F26C4F3B2002A154F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3F22E26C4F3B2002A154F /* AppDelegate.swift */; };
-		B7A3F23126C4F3B2002A154F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3F23026C4F3B2002A154F /* SceneDelegate.swift */; };
-		B7A3F23326C4F3B2002A154F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3F23226C4F3B2002A154F /* ViewController.swift */; };
-		B7A3F23626C4F3B2002A154F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A3F23426C4F3B2002A154F /* Main.storyboard */; };
+		B7A3F23326C4F3B2002A154F /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3F23226C4F3B2002A154F /* SearchController.swift */; };
 		B7A3F23826C4F3B4002A154F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A3F23726C4F3B4002A154F /* Assets.xcassets */; };
 		B7A3F23B26C4F3B4002A154F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A3F23926C4F3B4002A154F /* LaunchScreen.storyboard */; };
+		B7A3F24326C4FF9E002A154F /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3F24226C4FF9E002A154F /* MainTabbarController.swift */; };
+		B7A3F24626C5018F002A154F /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3F24526C5018F002A154F /* Repository.swift */; };
+		B7A3F24826C50549002A154F /* RepositoryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3F24726C50549002A154F /* RepositoryTableCell.swift */; };
+		B7A3F24B26C50CDB002A154F /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3F24A26C50CDB002A154F /* APIService.swift */; };
+		B7A3F24D26C51F4D002A154F /* RepoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3F24C26C51F4D002A154F /* RepoDetailController.swift */; };
+		B7A3F24F26C521BD002A154F /* WatchListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3F24E26C521BD002A154F /* WatchListController.swift */; };
+		B7A3F25526C52861002A154F /* LocalDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3F25426C52861002A154F /* LocalDBHelper.swift */; };
+		B7A3F25826C53C23002A154F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B7A3F25726C53C23002A154F /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B7A3F22B26C4F3B2002A154F /* Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A3F22E26C4F3B2002A154F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7A3F23026C4F3B2002A154F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7A3F23226C4F3B2002A154F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B7A3F23526C4F3B2002A154F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7A3F23226C4F3B2002A154F /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		B7A3F23726C4F3B4002A154F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7A3F23A26C4F3B4002A154F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7A3F23C26C4F3B4002A154F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7A3F24226C4FF9E002A154F /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		B7A3F24526C5018F002A154F /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		B7A3F24726C50549002A154F /* RepositoryTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTableCell.swift; sourceTree = "<group>"; };
+		B7A3F24A26C50CDB002A154F /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		B7A3F24C26C51F4D002A154F /* RepoDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailController.swift; sourceTree = "<group>"; };
+		B7A3F24E26C521BD002A154F /* WatchListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListController.swift; sourceTree = "<group>"; };
+		B7A3F25426C52861002A154F /* LocalDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDBHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A3F25826C53C23002A154F /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +68,60 @@
 		B7A3F22D26C4F3B2002A154F /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				B7A3F25A26C5560C002A154F /* Views */,
+				B7A3F25926C555E1002A154F /* Controllers */,
+				B7A3F25026C52568002A154F /* LocalDB */,
+				B7A3F24926C50CC7002A154F /* APIService */,
+				B7A3F24426C5017D002A154F /* Model */,
 				B7A3F22E26C4F3B2002A154F /* AppDelegate.swift */,
-				B7A3F23026C4F3B2002A154F /* SceneDelegate.swift */,
-				B7A3F23226C4F3B2002A154F /* ViewController.swift */,
-				B7A3F23426C4F3B2002A154F /* Main.storyboard */,
 				B7A3F23726C4F3B4002A154F /* Assets.xcassets */,
 				B7A3F23926C4F3B4002A154F /* LaunchScreen.storyboard */,
 				B7A3F23C26C4F3B4002A154F /* Info.plist */,
 			);
 			path = Assignment;
+			sourceTree = "<group>";
+		};
+		B7A3F24426C5017D002A154F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7A3F24526C5018F002A154F /* Repository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7A3F24926C50CC7002A154F /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				B7A3F24A26C50CDB002A154F /* APIService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		B7A3F25026C52568002A154F /* LocalDB */ = {
+			isa = PBXGroup;
+			children = (
+				B7A3F25426C52861002A154F /* LocalDBHelper.swift */,
+			);
+			path = LocalDB;
+			sourceTree = "<group>";
+		};
+		B7A3F25926C555E1002A154F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7A3F23226C4F3B2002A154F /* SearchController.swift */,
+				B7A3F24226C4FF9E002A154F /* MainTabbarController.swift */,
+				B7A3F24C26C51F4D002A154F /* RepoDetailController.swift */,
+				B7A3F24E26C521BD002A154F /* WatchListController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B7A3F25A26C5560C002A154F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7A3F24726C50549002A154F /* RepositoryTableCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +140,9 @@
 			dependencies = (
 			);
 			name = Assignment;
+			packageProductDependencies = (
+				B7A3F25726C53C23002A154F /* Kingfisher */,
+			);
 			productName = Assignment;
 			productReference = B7A3F22B26C4F3B2002A154F /* Assignment.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +170,9 @@
 				Base,
 			);
 			mainGroup = B7A3F22226C4F3B2002A154F;
+			packageReferences = (
+				B7A3F25626C53C23002A154F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = B7A3F22C26C4F3B2002A154F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +189,6 @@
 			files = (
 				B7A3F23B26C4F3B4002A154F /* LaunchScreen.storyboard in Resources */,
 				B7A3F23826C4F3B4002A154F /* Assets.xcassets in Resources */,
-				B7A3F23626C4F3B2002A154F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +199,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7A3F23326C4F3B2002A154F /* ViewController.swift in Sources */,
+				B7A3F25526C52861002A154F /* LocalDBHelper.swift in Sources */,
+				B7A3F23326C4F3B2002A154F /* SearchController.swift in Sources */,
 				B7A3F22F26C4F3B2002A154F /* AppDelegate.swift in Sources */,
-				B7A3F23126C4F3B2002A154F /* SceneDelegate.swift in Sources */,
+				B7A3F24326C4FF9E002A154F /* MainTabbarController.swift in Sources */,
+				B7A3F24F26C521BD002A154F /* WatchListController.swift in Sources */,
+				B7A3F24626C5018F002A154F /* Repository.swift in Sources */,
+				B7A3F24D26C51F4D002A154F /* RepoDetailController.swift in Sources */,
+				B7A3F24B26C50CDB002A154F /* APIService.swift in Sources */,
+				B7A3F24826C50549002A154F /* RepositoryTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B7A3F23426C4F3B2002A154F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B7A3F23526C4F3B2002A154F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B7A3F23926C4F3B4002A154F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +401,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B7A3F25626C53C23002A154F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B7A3F25726C53C23002A154F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7A3F25626C53C23002A154F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B7A3F22326C4F3B2002A154F /* Project object */;
 }
